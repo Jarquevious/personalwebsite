@@ -18,12 +18,12 @@ const personalInfo = {
 	email: "example@email.com",
 	status: "Available",
 	socialNetworks: {
-		facebook: "#", // your link address facebook
+		facebook: "https://www.facebook.com/profile.php?id=100047669499511" , // your link address facebook
 		instagram: "#", // your link address instagram
 		dribbble: "#", // your link address dribbble
 		twitter: "#", // your link address twitter
 		whatsapp: "#", // your link address whatsapp
-		linkedin: "#", // your link address linkedin
+		linkedin: "https://www.linkedin.com/in/jarquevious-nelson/", // your link address linkedin
 		facebook_u: "zenDeveloper", // your username facebook
 		instagram_u: "zenDeveloper", // your username instagram
 		dribbble_u: "zen", // your username dribbble
