@@ -90,6 +90,7 @@
 }
 .frs-linkedin_2:before {
 	content: "\e914";
+	pointer-events: none;
 }
 .frs-marker:before {
 	content: "\e915";
