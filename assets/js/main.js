@@ -8,15 +8,15 @@
 	portofolio
 */
 const personalInfo = {
-	name: "Yazid Alinurdienul Haq",
-	birthday: "21-March-2001",
-	city: "Bandung, West Java",
-	country: "Indonesia",
-	phone: "+62 1234 5678 910",
-	age: 20,
-	degree: "Vocational High School",
-	email: "example@email.com",
-	status: "Available",
+	name: "Jarquevious Nelson",
+	birthday: "Atlanta, Georgia",
+	city: "San Francisco",
+	country: "United States",
+	phone: "+01 415 879 3727",
+	age: 25,
+	degree: "Applied Computer Science, Dominican University of California",
+	email: "jarquevious@gmail.com",
+	company: "Speedy Clean Bin",
 	socialNetworks: {
 		facebook: "https://www.facebook.com/profile.php?id=100047669499511" , // your link address facebook
 		instagram: "#", // your link address instagram
