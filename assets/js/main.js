@@ -32,18 +32,18 @@ const personalInfo = {
 	},
 	skills: [
 		{
-			skill: "PHP",
-			progress: "80",
+			skill: "Python",
+			progress: "100",
 			show_percentage: false,
 		},
 		{
 			skill: "Javascript",
-			progress: "40",
+			progress: "96",
 			show_percentage: false,
 		},
 		{
-			skill: "Vue",
-			progress: "50",
+			skill: "Investment Thesis",
+			progress: "80",
 			show_percentage: false,
 		},
 	],
