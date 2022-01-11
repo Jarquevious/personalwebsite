@@ -1,0 +1,404 @@
+/* Dark Mode */
+body {
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body,
+body section.blog-page > .modal {
+  background-image: url("/assets/img/Artboard.png");
+}
+
+body main div.modal-content {
+  background-color: #1c1f23 !important;
+}
+
+body main > nav {
+  background-color: var(--bs-dark);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+body main > nav ul li:hover a i,
+body main > nav ul li.active a i {
+  color: var(--bs-dark);
+}
+
+body main > nav ul li {
+  border: none;
+  background-color: #272b30;
+}
+
+body main > nav ul li.active {
+  background-color: var(--bs-primary);
+  -webkit-box-shadow: 0px 0px 6px 2px var(--bs-primary);
+          box-shadow: 0px 0px 6px 2px var(--bs-primary);
+}
+
+body main > nav ul li:hover {
+  background-color: var(--bs-primary);
+  -webkit-box-shadow: 0px 0px 6px 2px var(--bs-primary);
+          box-shadow: 0px 0px 6px 2px var(--bs-primary);
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+
+body main > nav ul li a i {
+  color: var(--bs-primary);
+}
+
+body main .btn.btn-pink:hover,
+body main .btn.btn-pink {
+  color: var(--bs-dark);
+}
+
+body main section.content {
+  background: var(--bs-dark);
+}
+
+body main section.content #social .social-us:hover a {
+  color: var(--bs-primary) !important;
+}
+
+body main section.content #social .shape:hover,
+body main section.content .profile-content .social .shape:hover {
+  background-color: var(--bs-primary);
+  color: #272b30;
+}
+
+body main section.content .profile-content .social i {
+  color: #6c757d;
+}
+
+body main section.content .profile-content .social a:hover .shape,
+body main section.content .profile-content .social a:hover i {
+  color: #272b30;
+  background-color: var(--bs-primary);
+}
+
+body main section.content .profile-content .social .shape,
+body main section.content #social .shape {
+  background-color: #272b30;
+}
+
+body main section.content .profile-content p.text-secondary,
+body main section.content p.text-secondary {
+  color: #6c757d !important;
+}
+
+body main section.content input#search {
+  background-color: #272b30;
+}
+
+body main section.content input#search::-webkit-input-placeholder {
+  color: #505050;
+  font-size: small;
+}
+
+body main section.content input#search:-ms-input-placeholder {
+  color: #505050;
+  font-size: small;
+}
+
+body main section.content input#search::-ms-input-placeholder {
+  color: #505050;
+  font-size: small;
+}
+
+body main section.content input#search::placeholder {
+  color: #505050;
+  font-size: small;
+}
+
+body main section.content .filter a:hover,
+body main section.content .filter-active {
+  background-color: var(--bs-primary);
+  color: #272b30 !important;
+  font-weight: 500;
+}
+
+body main section.content .filter a:hover,
+body main section.content .filter-active {
+  border-color: var(--bs-primary);
+}
+
+body main section.content .progress {
+  background-color: #272b30;
+}
+
+body main section.content .progress-bar {
+  color: #272b30;
+  background-color: var(--bs-primary);
+}
+
+body main section.content .p-progress div > div {
+  color: var(--bs-primary) !important;
+}
+
+body main section.content .btn.btn-pink-outline:hover {
+  color: var(--bs-dark);
+}
+
+body main section.content .btn.btn-pink-outline {
+  color: #6c757d;
+  background-color: #272b30;
+  border: none;
+}
+
+body main section.content .btn.btn-pink-outline:hover {
+  color: var(--bs-primary);
+  background-color: #1c1f23;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body main .bg-dark,
+body main .blog-quote,
+body main .comment-item {
+  background-color: #272b30 !important;
+}
+
+body main .text-secondary {
+  color: #bbbbbb !important;
+}
+
+body main .card {
+  background-color: var(--bs-dark);
+}
+
+body main .card:hover .card-text {
+  color: #c5c5c5;
+}
+
+body main .card .card-header {
+  background-color: #272b30;
+}
+
+body main .card .card-text {
+  color: #bbbbbb;
+}
+
+body main .page-link {
+  color: var(--bs-primary);
+  background-color: var(--bs-dark);
+}
+
+body main .page-link:hover, body main .page-link:focus {
+  background-color: #272b30;
+}
+
+body main .btn-dark {
+  color: #6c757d;
+  background-color: #272b30;
+  border: none;
+}
+
+body main .btn-dark:hover {
+  color: var(--bs-primary);
+  background-color: #1c1f23;
+}
+
+body main .btn-check:focus + body main .btn-dark,
+body main .btn-dark:focus {
+  color: #c5c5c5;
+  background-color: #1c1f23;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body main .btn-check:checked + body main.btn-dark,
+body main .btn-check:active + body main.btn-dark,
+body main .btn-dark:active,
+body main .btn-dark.active,
+body main .show > body main .btn-dark.dropdown-toggle {
+  color: #c5c5c5;
+  background-color: #1a1e21;
+  border-color: #191c1f;
+}
+
+body main .btn-check:checked + body main .btn-dark:focus,
+body main .btn-check:active + .btn-dark:focus,
+body main .btn-dark:active:focus,
+body main .btn-dark.active:focus,
+body main .show > body main .btn-dark.dropdown-toggle:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body main .btn-dark:disabled,
+body main .btn-dark.disabled {
+  color: #c5c5c5;
+  background-color: var(--bs-blue-dark);
+  border-color: var(--bs-blue-dark);
+}
+
+body main .dropdown-menu-dark {
+  color: #dee2e6;
+  background-color: var(--bs-dark);
+  border-color: rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+body main .dropdown-menu-dark .dropdown-item {
+  color: #dee2e6;
+}
+
+body main .dropdown-menu-dark .dropdown-item:hover, body main .dropdown-menu-dark .dropdown-item:focus {
+  color: #c5c5c5;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+body main .dropdown-menu-dark .dropdown-item.active, body main .dropdown-menu-dark .dropdown-item:active {
+  color: #c5c5c5;
+  text-decoration: none;
+  background-color: var(--bs-primary);
+}
+
+body main .dropdown-menu-dark .dropdown-item.disabled, body main .dropdown-menu-dark .dropdown-item:disabled {
+  color: #adb5bd;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+body main .dropdown-menu-dark .dropdown-item .dropdown-divider {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+body main .dropdown-menu-dark .dropdown-item .dropdown-item-text {
+  color: #dee2e6;
+}
+
+body main .dropdown-menu-dark .dropdown-item .dropdown-header {
+  color: #adb5bd;
+}
+
+body main .dropdown-menu-dark .dropdown-item .dropdown-item:hover,
+body main .dropdown-menu-dark .dropdown-item .dropdown-item:focus {
+  color: #c5c5c5;
+  background-color: #272b30;
+}
+
+body main .text-dark {
+  color: var(--bs-dark);
+}
+
+body main .form-control {
+  color: var(--bs-primary);
+  background-color: #272b30;
+}
+
+body main .form-control:focus {
+  color: var(--bs-primary);
+  background-color: #272b30;
+}
+
+body main .message label {
+  color: var(--bs-primary) !important;
+}
+
+body main .btn-primary {
+  color: #272b30;
+  font-weight: 500;
+  background-color: var(--bs-primary);
+}
+
+body main .btn-primary:hover {
+  color: var(--bs-dark);
+  font-weight: 500;
+  background-color: var(--bs-primary-hov);
+}
+
+body main .btn-check:focus + body main .btn-primary,
+body main .btn-primary:focus {
+  color: var(--bs-dark);
+  background-color: var(--bs-primary-hov);
+}
+
+body main .text-dark {
+  color: var(--bs-blue-dark) !important;
+}
+
+body main .item .box h6,
+body main .item > h6,
+body main .skill > h6 {
+  color: #c5c5c5 !important;
+}
+
+body main .page-item.active .page-link {
+  color: #272b30;
+}
+
+body main .page-item.active .page-link:hover {
+  color: var(--bs-primary);
+}
+
+body main .accordion-button:not(.collapsed) {
+  background-color: var(--bs-primary);
+  color: var(--bs-dark);
+}
+
+body main .accordion-button {
+  color: #bbbbbb;
+}
+
+body main .blog-categories ul.category li a:hover,
+body main .blog-categories ul.category li:hover {
+  color: var(--bs-primary) !important;
+}
+
+body main .blog-recent ul.list-group li.list-group-item,
+body main .blog-archive ul.list-group li.list-group-item {
+  color: #bbbbbb;
+}
+
+body main .blog-categories ul.category li a,
+body main .blog-tags ul.tags li a {
+  color: #bbbbbb !important;
+}
+
+body main .btn-nav-comment button.btn.btn-comment.vote-up:hover {
+  color: var(--bs-success) !important;
+}
+
+body main .btn-nav-comment button.btn.btn-comment.vote-down:hover {
+  color: var(--bs-danger) !important;
+}
+
+body main .blog-box,
+body main .blog-recent,
+body main .blog-tags,
+body main .blog-categories,
+body main .blog-archive,
+body main .comment-box,
+body main .comment-form {
+  border-radius: 1rem;
+  background-color: var(--bs-dark);
+}
+
+body main .TableOfContent .accordion .accordion-body {
+  background-color: #272b30;
+}
+
+body main .TableOfContent .accordion .accordion-body ul.list-group li {
+  background-color: transparent;
+  border: none;
+  color: #bbbbbb;
+}
+
+body main .TableOfContent .accordion .accordion-body ul.list-group li:focus {
+  color: var(--bs-primary);
+}
+
+body main .blog-recent ul.list-group li.list-group-item:hover,
+body main .blog-archive ul.list-group li.list-group-item:hover {
+  background-color: var(--bs-primary);
+  color: var(--bs-dark);
+}
+
+body main .nav li.active a.link i,
+body main .nav a.link:hover i {
+  color: #272b30 !important;
+}
+/*# sourceMappingURL=dark.css.map */

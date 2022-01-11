@@ -1,0 +1,303 @@
+/* Light Mode */
+body {
+  color: var(--bs-blue-dark);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body,
+body section.blog-page > .modal {
+  background-image: url("/assets/img/minimal-digital-art-space-wallpaper-background-64899-67102-hd-wallpapers.jpg");
+}
+
+body main .accordion-button:not(.collapsed) {
+  background-color: var(--bs-primary);
+}
+
+body main > nav {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+body main > nav ul li:hover i,
+body main > nav ul li.active i,
+body main > nav ul li.active a i,
+body main > nav ul li:hover a i {
+  color: white;
+}
+
+body main > nav ul li {
+  border: none;
+  background-color: #f5f5f5;
+}
+
+body main > nav ul li.active {
+  background-color: var(--bs-primary);
+  -webkit-box-shadow: 0px 0px 6px 2px var(--bs-primary);
+          box-shadow: 0px 0px 6px 2px var(--bs-primary);
+}
+
+body main > nav ul li:hover {
+  background-color: var(--bs-primary);
+  -webkit-box-shadow: 0px 0px 6px 2px var(--bs-primary);
+          box-shadow: 0px 0px 6px 2px var(--bs-primary);
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+
+body main > nav ul li a i {
+  color: var(--bs-primary);
+}
+
+body main section.content {
+  background: white;
+}
+
+body main section.content #social .social-us:hover a {
+  color: var(--bs-primary) !important;
+}
+
+body main section.content #social .shape:hover {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+
+body main section.content .profile-content .social i {
+  color: #b9b9b9;
+}
+
+body main section.content .profile-content .social a:hover .shape,
+body main section.content .profile-content .social a:hover i {
+  color: #fff;
+  background-color: var(--bs-primary);
+}
+
+body main section.content .profile-content .social .shape,
+body main section.content #social .shape {
+  background-color: #f5f5f5;
+}
+
+body main section.content .profile-content > p.text-secondary {
+  color: #b9b9b9 !important;
+}
+
+body main section.content .filter a:hover,
+body main section.content .filter-active {
+  background-color: var(--bs-primary);
+  color: #fff !important;
+}
+
+body main section.content .btn.btn-pink-outline {
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+body main section.content .btn.btn-pink-outline:hover {
+  color: #fff;
+}
+
+body main section.content input#search {
+  background-color: #f9fafb;
+}
+
+body main section.content .progress-bars {
+  background: var(--bs-primary);
+}
+
+body main section.content .progress-bars::after {
+  background: #ececec;
+}
+
+body main section.content .progress {
+  background-color: #f9f9f9;
+}
+
+body main section.content .progress-bar {
+  color: #fff;
+  background-color: var(--bs-primary);
+}
+
+body main .accordion-button:not(.collapsed) {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+
+body main .blog-categories ul.category li a:hover,
+body main .blog-categories ul.category li:hover {
+  color: var(--bs-primary) !important;
+}
+
+body main .accordion-button {
+  color: #5b5b5b;
+}
+
+body main .blog-recent ul.list-group li.list-group-item,
+body main .blog-archive ul.list-group li.list-group-item,
+body main .blog-categories ul.category li a,
+body main .blog-tags ul.tags li a {
+  color: #5b5b5b;
+}
+
+body main .btn-nav-comment button.btn.btn-comment.vote-up:hover {
+  color: var(--bs-success) !important;
+}
+
+body main .btn-nav-comment button.btn.btn-comment.vote-down:hover {
+  color: var(--bs-danger) !important;
+}
+
+body main .blog-box,
+body main .blog-recent,
+body main .blog-tags,
+body main .blog-categories,
+body main .blog-archive,
+body main .comment-box,
+body main .comment-form {
+  border-radius: 1rem;
+  background-color: #f9fafb;
+}
+
+body main .blog-quote {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+body main .blog-recent ul.list-group li.list-group-item:hover,
+body main .blog-archive ul.list-group li.list-group-item:hover {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+
+body main .TableOfContent .accordion .accordion-body {
+  background-color: #f5f5f5;
+}
+
+body main .TableOfContent .accordion .accordion-body ul.list-group li:hover {
+  color: var(--bs-primary);
+}
+
+body main .TableOfContent .accordion .accordion-body ul.list-group li {
+  background-color: transparent;
+  border: none;
+  color: #5b5b5b;
+}
+
+body main .btn.btn-pink:hover,
+body main .btn.btn-pink {
+  color: #fff;
+}
+
+body main .btn.btn-pink-outline:hover {
+  color: #fff;
+}
+
+body main .card {
+  background-color: #fff;
+}
+
+body main .card .card-header {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+body main .card:hover .card-text {
+  color: var(--bs-blue-dark);
+}
+
+body main .text-secondary,
+body main .card-text {
+  color: #5b5b5b;
+}
+
+body main .page-link {
+  color: var(--bs-primary);
+  background-color: #fff;
+}
+
+body main .page-link:hover, body main .page-link:focus {
+  background-color: #e9ecef;
+  color: var(--bs-primary-hov);
+}
+
+body main .dropdown-menu {
+  color: var(--bs-blue-dark);
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+
+body main .dropdown-menu .dropdown-item:hover,
+body main .dropdown-menu .dropdown-item:focus {
+  color: #1e2125;
+  background-color: #f9fafb;
+}
+
+body main .dropdown-menu .dropdown-item.active,
+body main .dropdown-menu .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--bs-primary);
+}
+
+body main .dropdown-menu .dropdown-item.disabled,
+body main .dropdown-menu .dropdown-item:disabled {
+  color: #adb5bd;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+body main .form-control {
+  color: var(--bs-primary);
+  background-color: #f5f5f5;
+}
+
+body main .form-control:focus {
+  color: var(--bs-primary);
+  background-color: #f5f5f5;
+}
+
+body main .btn-primary {
+  color: #fff;
+  background-color: var(--bs-primary);
+}
+
+body main .btn-primary:hover {
+  color: #fff;
+  background-color: var(--bs-primary-hov);
+}
+
+body main .btn-check:focus + body main .btn-primary,
+body main .btn-primary:focus {
+  color: #fff;
+  background-color: var(--bs-primary-hov);
+}
+
+body main .text-white {
+  color: #fff !important;
+}
+
+body main .bg-light {
+  background-color: #f8f9fa !important;
+}
+
+body main .btn-primary {
+  color: #fff;
+  background-color: var(--bs-primary);
+}
+
+body main .btn-primary:hover {
+  color: #fff;
+  background-color: var(--bs-primary-hov);
+}
+
+body main .btn-check:focus + .btn-primary,
+body main .btn-primary:focus {
+  color: #fff;
+  background-color: var(--bs-primary-hov);
+}
+
+body main .nav li.active a.link i,
+body main .nav a.link:hover i {
+  color: white !important;
+}
+/*# sourceMappingURL=light.css.map */
